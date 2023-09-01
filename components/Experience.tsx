@@ -14,11 +14,11 @@ export default function Experience({}: Props) {
       className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl md:px-10 justify-evenly mx-auto items-center"
     >
       <h3 className="absolute top-32 uppercase tracking-[20px] text-gray-400 text-2xl pl-6">
-        Experience
+        Experiencia
       </h3>
 
       <div className="w-full mt-20 flex space-x-10 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-track-transparent scrollbar-thin xl:space-x-14 ">
-      <ExperienceCard
+        {/* <ExperienceCard
           clogo="/companyLogo/zeza-logo.png"
           title="Frontend developer intern"
           company="at, zeza.tech"
@@ -26,8 +26,8 @@ export default function Experience({}: Props) {
           point2="Implemented interactive features using React and harnessed the capabilities of AgGrid to optimize data display and enhance user engagement."
           startDate="April, 2023"
           endDate="July, 2023"
-        />
-        <ExperienceCard
+        /> */}
+        {/* <ExperienceCard
           clogo="/companyLogo/lhc.jpeg"
           title="Founder"
           company="localhostcoders community"
@@ -71,7 +71,7 @@ export default function Experience({}: Props) {
           point2="Got featured on CoCode community for Blog-a-thon contest for my blog on 'Middleware in ExpressJS'."
           startDate="Dec, 2022"
           endDate="Present"
-        />
+        /> */}
       </div>
     </motion.div>
   );

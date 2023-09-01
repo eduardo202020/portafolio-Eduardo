@@ -46,19 +46,9 @@ export default function Header({}: Props) {
         </a>
 
         {/* Social icons */}
+
         <SocialIcon
-          url="https://www.linkedin.com/in/nickk2305/"
-          fgColor="#a9a9a9"
-          bgColor="transparent"
-          className="ml-3"
-        />
-        <SocialIcon
-          url="https://www.twitter.com/NickK2305"
-          fgColor="#a9a9a9"
-          bgColor="transparent"
-        />
-        <SocialIcon
-          url="https://github.com/Nick-h4ck3r"
+          url="https://github.com/eduardo202020"
           fgColor="#a9a9a9"
           bgColor="transparent"
         />
@@ -100,7 +90,7 @@ export default function Header({}: Props) {
           </svg>
         </p> */}
         <p className="hidden md:inline-flex text-sm text-[#a9a9a9]">
-          <a href="#contact">Get in touch</a>
+          <a href="#contact">Contactar</a>
         </p>
       </motion.div>
     </header>

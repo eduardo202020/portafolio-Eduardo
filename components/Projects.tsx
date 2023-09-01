@@ -7,14 +7,15 @@ type Props = {
 };
 
 export default function Projects({ data }: Props) {
-  const projects = [1, 2, 3, 4, 5];
+  console.log({ data });
+
   return (
     <div className="h-screen relative flex flex-col overflow-hidden text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0">
       <h3 className="absolute top-32 uppercase tracking-[20px] text-gray-400 text-2xl">
         Projects
       </h3>
       <div className="absolute bottom-32 md:bottom-12 md:text-lg text-gray-200 z-40 items-center font-outfit animate-pulse opacity-75">
-        swipe to see more... <span className="text-blue-500">➡</span>
+        desliza para ver más <span className="text-blue-500">➡</span>
       </div>
 
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">

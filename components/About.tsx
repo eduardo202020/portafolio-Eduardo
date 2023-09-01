@@ -43,62 +43,29 @@ export default function About({}: Props) {
         width={350}
         height={450}
         src="/extraImages/profilePic.jpg"
-        className="-mb-32 md:mb-0 md:ml-16 flex-shrink-0 w-40 h-40 rounded-xl object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[350px] xl:h-[450px]"
-        alt="nikhil kadam profile image"
+        className="-mb-32 md:mb-0 md:ml-16 flex-shrink-0 w-60 h-60 rounded-xl object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[350px] xl:h-[450px]"
+        alt="Eduardo Guevara profile image"
       />
 
       <div className="px-0 md:px-20">
         <h4 className="text-3xl md:text-4xl font-semibold mt-8 lg:mt-2 font-outfit lg:ml-6 md:ml-6">
-          $: /whoami
+          ¿Quién soy?
         </h4>
         <p className="text-sm md:text-base lg:text-lg lg:mt-4 font-light px-4 md:px-7 pt-3 font-outfit">
-          Welcome to my digital abode! <br />
-          <br /> I am a{" "}
-          <span className="text-blue-500 font-semibold">
-            full stack developer
-          </span>{" "}
-          with a passion for building scalable and user-friendly web
-          applications. I love to create elegant solutions to complex problems.
+          Bienvenido a mi rincón tecnologico
           <br />
-          <br />I am also the founder of{" "}
+          <br /> Soy un{" "}
           <span className="text-blue-500 font-semibold">
-            <a
-              href="https://instagram.com/localhostcoders"
-              target={"_blank"}
-              rel="noreferrer"
-            >
-              localhostcoders
-              <span className="inline-flex text-white">
-                <svg
-                  className="with-icon_icon__MHUeb"
-                  data-testid="geist-icon"
-                  fill="none"
-                  height="24"
-                  shapeRendering="geometricPrecision"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.5"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  style={{
-                    color: "currentColor",
-                    width: "14px",
-                    height: "14px",
-                  }}
-                >
-                  <path d="M7 17L17 7"></path>
-                  <path d="M7 7h10v10"></path>
-                </svg>
-              </span>
-            </a>
-          </span>
-          , a community dedicated to empowering aspiring developers.
-          <br /> <br /> Alongside my tech endeavors, I am an avid reader and
-          enjoy delving into subjects such as psychology and philosophy while
-          enjoying a{" "}
+            desarrollador full stack
+          </span>{" "}
+          con una pasión por construir aplicaciones web escalables y amigables
+          para el usuario. Me encanta crear soluciones elegantes para problemas
+          complejos.
+          <br /> Junto a mis esfuerzos tecnológicos, soy un ávido lector y
+          disfruto adentrarme en temas como la psicología y la filosofía
+          mientras disfruto de una{" "}
           <span className="text-blue-500 font-semibold">
-            fresh cup of coffee!
+            taza fresca de café.
           </span>
         </p>
       </div>

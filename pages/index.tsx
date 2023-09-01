@@ -14,7 +14,7 @@ export default function Home({ data }: any) {
       className="bg-black text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar-track-transparent scrollbar-thumb-slate-500/20 scrollbar-thin"
     >
       <Head>
-        <title>Eduardo Guevara Lázaro</title>
+        <title>Eduardo v2</title>
         <meta
           name="description"
           content="Nikhil Kadam is a software developer and the founder of localhostcoders, a community that provides valuable resources for beginner developers. Explore Nikhil's latest projects and accomplishments, and learn more about his expertise in software development. Connect with Nikhil today to collaborate on your next software development project."

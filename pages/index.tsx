@@ -37,9 +37,9 @@ export default function Home({ data }: any) {
       </section>
 
       {/* Experience */}
-      {/* <section id="experience" className="snap-center">
+      <section id="experience" className="snap-center">
         <Experience />
-      </section> */}
+      </section>
 
       {/* Skills */}
       <section id="skills" className="snap-center">

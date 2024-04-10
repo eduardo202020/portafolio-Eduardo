@@ -22,7 +22,7 @@ export default function ExperienceCard({
 }: Props) {
   return (
     <article className="flex pr-4 flex-col rounded-r-lg flex-shrink-0 snap-center backdrop-blur-sm font-outfit bg-[#141414] transition-transform duration-200 overflow-hidden md:py-14 py-10 md:mt-10 border-l border-gray-600 hover:border-blue-500 md:max-w-3xl max-w-xs md:px-0 px-5">
-      <div className="flex items-center md:pl-10">
+      <div className="flex items-center md:pl-10 pr-8">
         <motion.img
           initial={{ opacity: 0, x: -10 }}
           transition={{ duration: 1 }}

@@ -32,6 +32,13 @@ export default function Experience({}: Props) {
           startDate="Diciembre, 2020"
           endDate="Presente"
         />
+        <ExperienceCard
+          clogo="/companyLogo/Udemy.png"
+          title="Estudiante"
+          company="Udemy"
+          startDate="Marzo, 2021"
+          endDate="Presente"
+        />
       </div>
     </motion.div>
   );

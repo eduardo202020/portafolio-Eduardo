@@ -44,6 +44,7 @@ function Skills({}: Props) {
         <Skill imgsrc="/skillsLogos/tailwind.png" />
         <Skill imgsrc="/skillsLogos/typescript.png" />
         <Skill imgsrc="/skillsLogos/python.png" />
+        <Skill imgsrc="/skillsLogos/wordpress.png" />
       </div>
     </motion.div>
   );
